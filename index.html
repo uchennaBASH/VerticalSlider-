@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, inital-scale=1.0" />  
+    <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Vertical Slider</title>
+  </head>
+  
+  <body>
+    <div class="slider-container"> <!-- container that wraps around everything-->
+      
+        <div class="left-slide">                        <!-- contains our text-->
+          <div style ="background-color: #FD3555"> <!-- SLIDE 1-->
+            <h1>Nature Flower</h1>
+            <p>all in pink</p>
+          </div>
+        <div style ="background-color: #2A86BA"> <!-- SLIDE 2-->
+            <h1>Sky Blues</h1>
+            <p>Mountains so high</p>
+          </div>
+        <div style ="background-color: #252E33"> <!-- SLIDE 3-->
+            <h1>Lonely Castle</h1>
+            <p>in the middle of nowhere</p>
+          </div>
+        <div style ="background-color: #FFB866"> <!-- SLIDE 4-->
+            <h1>Soaring Eagle</h1>
+            <p>reigning the horizon</p>
+          </div>
+       </div>
+        <!-- FOR CONTEXT: Because we are creating a slider with arrows that go up and down, the images need to go in descending order.-->
+          
+        <div class="right-slide">                            <!-- contains only images-->
+          <div style= "background-image: url('https://images.unsplash.com/photo-1506845672128-81dab2251076?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80')"></div> <!-- slide4 -->
+          <div style= "background-image: url('https://images.unsplash.com/photo-1656878564120-ab988c47f0b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGdyZXklMjBjYXN0bGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60')"></div> <!-- slide3 -->
+          <div style= "background-image: url('https://images.unsplash.com/photo-1665741835553-b7adcf294229?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80')"></div> <!-- slide2 -->
+          <div style= "background-image: url('https://images.unsplash.com/photo-1483621150297-aa62559c634b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80')"></div> <!-- slide1 -->
+        </div>
+          
+         
+        <div class="action-buttons">
+          <button class= "down-button">
+            <i class = "fas fa-arrow-down"></i>
+          </button>
+          <button class= "up-button">
+              <i class = "fas fa-arrow-up"></i>
+          </button>
+        </div>
+        
+    </div>
+    <script src="script.js"></script> 
+  </body>
+
+</html>
